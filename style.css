@@ -47,7 +47,7 @@ section {
 
 .textDiv h1{
   color: var(--VeryDarkBlue);
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 
@@ -68,11 +68,14 @@ section {
 .cardBox1 {
   padding: 20px;
   border-top: 4px solid var(--Cyan);
-  width: 300px;
+  width: 320px;
+  height: 220px;
   background: #fff;
   box-shadow: 15px 15px 15px rgb(0, 0, 0, 0.05) ;
   margin: 15px;
 }
+
+
 
 .teamCard{
   border-top: 4px solid var(--Red);
@@ -88,6 +91,7 @@ section {
 
 .iconDiv{
   text-align: right;
+  margin-top: 50px;
 }
 
 img{

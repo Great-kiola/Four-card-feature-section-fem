@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/Great-kiola/Four-card-feature-section-fem)
+- Live Site URL: [Live site URL](https://great-kiola.github.io/Four-card-feature-section-fem/)
 
 ### Built with
 
