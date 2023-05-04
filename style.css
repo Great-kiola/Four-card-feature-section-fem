@@ -38,6 +38,33 @@ section {
   color: var(--GrayishBlue);
 }
 
+.textDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textDiv h1{
+  color: var(--VeryDarkBlue);
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.textDiv h1 span{
+  font-weight: 700;
+}
+
+.textDiv p{
+  padding: 15px;
+  text-align: center;
+  max-width: 600px;
+  color: var(--GrayishBlue);
+  font-size: 1rem !important;
+  font-size: small;
+
+}
+
 .cardBox1 {
   padding: 20px;
   border-top: 4px solid var(--Cyan);
@@ -53,6 +80,10 @@ section {
 
 .kamaCard{
   border-top: 4px solid var(--Orange);
+}
+
+.calcCard{
+  border-top: 4px solid var(--Blue);
 }
 
 .iconDiv{

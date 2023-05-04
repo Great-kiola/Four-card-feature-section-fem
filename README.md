@@ -4,7 +4,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Screenshot
 
-![](./screenshot.jpg)
+<img src="./assets/Screenshot.png" alt="Completed Design" width=900>
 
 ## Overview
 
