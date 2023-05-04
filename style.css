@@ -1,7 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  background: var(--VeryLightGray);
+
+}
+
+section {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardsDiv{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardsDiv h1{
+  font-size: 1.1rem;
+}
+
+.cardsDiv p{
+  font-size: .8rem;
+  color: var(--GrayishBlue);
+}
+
+.cardBox1 {
+  padding: 20px;
+  border-top: 4px solid var(--Cyan);
+  width: 300px;
+  background: #fff;
+  box-shadow: 15px 15px 15px rgb(0, 0, 0, 0.05) ;
+  margin: 15px;
+}
+
+.teamCard{
+  border-top: 4px solid var(--Red);
+}
+
+.kamaCard{
+  border-top: 4px solid var(--Orange);
+}
+
+.iconDiv{
+  text-align: right;
+}
+
+img{
+  margin: 10px;
+  width: 45px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
+:root{
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+
+  /* Neutral */
+  --VeryDarkBlue: hsl(234, 12%, 34%);
+  --GrayishBlue: hsl(229, 6%, 66%);
+  --VeryLightGray: hsl(0, 0%, 98%);
 }
